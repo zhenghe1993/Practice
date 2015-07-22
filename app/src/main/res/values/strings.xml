@@ -3,4 +3,12 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="UI">完全编程式开发UI界面</string>
+    <string name="Ball">随手指滑动的小球</string>
+    <string name="neon">霓虹灯</string>
+    <string name="calculator">计算器</string>
+    <string name="delete">清除</string>
+    <string name="book">请选择您喜欢的书籍</string>
+    <string name="Expandable">可展开的列表组件</string>
+
 </resources>

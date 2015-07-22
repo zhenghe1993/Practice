@@ -26,7 +26,7 @@
         <activity android:name=".simpleAdapterDemo"></activity>
         <activity android:name=".baseAdapterDemo"></activity>
         <activity android:name=".AutoCompleteTextViewDemo"></activity>
-        <activity android:name=".ExpandableDemo'"></activity>
+        <activity android:name=".ExpandableDemo"></activity>
     </application>
 
 </manifest>
