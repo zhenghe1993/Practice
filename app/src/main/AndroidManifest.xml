@@ -16,6 +16,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".UIActivity"></activity>
+        <activity android:name=".FingerOfBall"></activity>
+        <activity android:name=".NeonActivity"></activity>
+        <activity android:name=".Calculator"></activity>
+        <activity android:name=".AdapterViewDemo"></activity>
+        <activity android:name=".ArrayAdapterDemo"></activity>
+        <activity android:name=".listActivityDemo"></activity>
+        <activity android:name=".simpleAdapterDemo"></activity>
+        <activity android:name=".baseAdapterDemo"></activity>
+        <activity android:name=".AutoCompleteTextViewDemo"></activity>
+        <activity android:name=".ExpandableDemo'"></activity>
     </application>
 
 </manifest>
