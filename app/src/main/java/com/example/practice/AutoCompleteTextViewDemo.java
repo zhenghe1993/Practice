@@ -7,7 +7,7 @@ import android.widget.AutoCompleteTextView;
 import android.widget.MultiAutoCompleteTextView;
 
 /**
- * 自动完成文本框
+ *
  * Created by Administrator on 2015/7/22.
  */
 public class AutoCompleteTextViewDemo extends Activity {
@@ -31,7 +31,6 @@ public class AutoCompleteTextViewDemo extends Activity {
         auto.setAdapter(aa);
         mul=(MultiAutoCompleteTextView)findViewById(R.id.mul);
         mul.setAdapter(aa);
-        //设置分隔符
         mul.setTokenizer(new MultiAutoCompleteTextView.CommaTokenizer());
     }
 }

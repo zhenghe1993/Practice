@@ -11,7 +11,7 @@ import java.util.TimerTask;
 
 
 /**
- * ÄÞºçµÆÐ§¹û
+ *
  * Created by Administrator on 2015/7/22.
  */
 public class NeonActivity extends Activity {

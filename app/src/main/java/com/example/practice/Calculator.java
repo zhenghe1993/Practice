@@ -7,7 +7,7 @@ import android.widget.Button;
 import android.widget.GridLayout;
 
 /**
- * ¼ÆËãÆ÷
+ *
  * Created by Administrator on 2015/7/22.
  */
 public class Calculator extends Activity {

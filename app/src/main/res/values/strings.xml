@@ -10,5 +10,6 @@
     <string name="delete">清除</string>
     <string name="book">请选择您喜欢的书籍</string>
     <string name="Expandable">可展开的列表组件</string>
+    <string name="views">仿android桌面</string>
 
 </resources>

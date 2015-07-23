@@ -14,7 +14,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 /**
- * 可展开的列表组件
+ *
  * Created by Administrator on 2015/7/22.
  */
 public class ExpandableDemo extends Activity {

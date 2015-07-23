@@ -17,6 +17,7 @@ public class AdapterViewDemo extends Activity {
     Button superbasebn;
     Button autoComplete;
     Button Expandable;
+    Button views;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +35,7 @@ public class AdapterViewDemo extends Activity {
         superbasebn = (Button) findViewById(R.id.superbase);
         autoComplete = (Button) findViewById(R.id.autoComplete);
         Expandable = (Button) findViewById(R.id.Expandable);
+        views = (Button) findViewById(R.id.views);
     }
 
     private void onClick() {
@@ -77,6 +79,12 @@ public class AdapterViewDemo extends Activity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(AdapterViewDemo.this, ExpandableDemo.class);
+                startActivity(intent);
+            }
+        }); views.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(AdapterViewDemo.this, ViewSwitchDemo.class);
                 startActivity(intent);
             }
         });
