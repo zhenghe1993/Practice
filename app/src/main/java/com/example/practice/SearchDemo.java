@@ -9,7 +9,7 @@ import android.widget.SearchView;
 import android.widget.Toast;
 
 /**
- * zhengheming is a Administrator
+ * zhengheming
  * Created by Administrator on 2015/7/23.
  */
 public class SearchDemo extends Activity implements SearchView.OnQueryTextListener {
