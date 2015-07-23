@@ -28,6 +28,7 @@
         <activity android:name=".AutoCompleteTextViewDemo"></activity>
         <activity android:name=".ExpandableDemo"></activity>
         <activity android:name=".ViewSwitchDemo"></activity>
+        <activity android:name=".SearchDemo"></activity>
     </application>
 
 </manifest>

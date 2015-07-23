@@ -11,5 +11,6 @@
     <string name="book">请选择您喜欢的书籍</string>
     <string name="Expandable">可展开的列表组件</string>
     <string name="views">仿android桌面</string>
+    <string name="search">搜索框</string>
 
 </resources>
