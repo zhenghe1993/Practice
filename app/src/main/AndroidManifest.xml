@@ -17,7 +17,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".UIActivity"></activity>
-        <activity android:name=".FingerOfBall"></activity>
+        <activity android:name=".FingerOfBall">
+            <intent-filter>
+                <action android:name="com.example.practice.action.FingerOfBall" />
+            </intent-filter>
+        </activity>
         <activity android:name=".NeonActivity"></activity>
         <activity android:name=".Calculator"></activity>
         <activity android:name=".AdapterViewDemo"></activity>
@@ -29,6 +33,14 @@
         <activity android:name=".ExpandableDemo"></activity>
         <activity android:name=".ViewSwitchDemo"></activity>
         <activity android:name=".SearchDemo"></activity>
+        <activity android:name=".MenuDemo"></activity>
+        <activity android:name=".ActivityDemo"></activity>
+        <activity android:name=".PreferenceActivityText"></activity>
+        <activity android:name=".DrawableDemo"></activity>
+        <activity android:name=".BitmapText"></activity>
+        <activity android:name=".PathText"></activity>
+        <activity android:name=".PathText2"></activity>
+
     </application>
 
 </manifest>

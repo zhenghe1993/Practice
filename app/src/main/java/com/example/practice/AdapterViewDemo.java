@@ -19,6 +19,7 @@ public class AdapterViewDemo extends Activity {
     Button Expandable;
     Button views;
     Button search;
+    Button menu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +39,7 @@ public class AdapterViewDemo extends Activity {
         Expandable = (Button) findViewById(R.id.Expandable);
         views = (Button) findViewById(R.id.views);
         search = (Button) findViewById(R.id.search);
+        menu = (Button) findViewById(R.id.menu);
     }
 
     private void onClick() {
@@ -95,6 +97,13 @@ public class AdapterViewDemo extends Activity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(AdapterViewDemo.this, SearchDemo.class);
+                startActivity(intent);
+            }
+        });
+        menu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(AdapterViewDemo.this, MenuDemo.class);
                 startActivity(intent);
             }
         });

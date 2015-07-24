@@ -1,5 +1,6 @@
 package com.example.practice;
 
+import android.content.ComponentName;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
@@ -16,7 +17,9 @@ public class MainActivity extends ActionBarActivity {
     Button Neon;
     Button calculator;
     Button adapter1;
-
+    Button activity;
+    Button drawable;
+        public static final String ACTION="com.example.practice.action.FingerOfBall";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,6 +34,8 @@ public class MainActivity extends ActionBarActivity {
         Neon = (Button) findViewById(R.id.neon);
         calculator = (Button) findViewById(R.id.calculator);
         adapter1 = (Button) findViewById(R.id.adapterview);
+        activity = (Button) findViewById(R.id.activity);
+        drawable = (Button) findViewById(R.id.drawable);
 
     }
 
@@ -38,14 +43,19 @@ public class MainActivity extends ActionBarActivity {
         UI.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, UIActivity.class);
+                ComponentName comp=new ComponentName(MainActivity.this,UIActivity.class);
+                Intent intent = new Intent();
+                intent.setComponent(comp);
                 startActivity(intent);
             }
         });
         Ball.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, FingerOfBall.class);
+//                Intent intent = new Intent(MainActivity.this, FingerOfBall.class);
+                Intent intent = new Intent();
+                intent.setAction(Intent.ACTION_MAIN);
+                intent.addCategory(Intent.CATEGORY_HOME);
                 startActivity(intent);
             }
         });
@@ -67,6 +77,20 @@ public class MainActivity extends ActionBarActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, AdapterViewDemo.class);
+                startActivity(intent);
+            }
+        });
+        activity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, ActivityDemo.class);
+                startActivity(intent);
+            }
+        });
+        drawable.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, DrawableDemo.class);
                 startActivity(intent);
             }
         });
